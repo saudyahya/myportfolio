@@ -988,3 +988,8 @@ h1, h2, h3, h4, h5,
 
 .footer-section {
   padding-top: 12rem !important; }
+
+h6 {
+  color: #888;
+  font-size: 2em;
+  font-family: Mistral	}
