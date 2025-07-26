@@ -209,3 +209,25 @@ div#content {margin-left:0;
 #urltext a:visited {color:#444}
 #urltext a:hover {color:#444}
 #urltext a:active {color:#444}
+
+#update-warning {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  background-color: #ffefc1;
+  color: #333;
+  padding: 15px 20px;
+  border: 1px solid #e0b200;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  font-size: 14px;
+  z-index: 9999;
+}
+
+#update-warning button {
+  background: none;
+  border: none;
+  font-size: 16px;
+  margin-left: 15px;
+  cursor: pointer;
+}
